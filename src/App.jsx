@@ -6,14 +6,42 @@ export default function ModernMobileMechanicWebsite() {
   const [activePage, setActivePage] = useState("home");
 
   const services = [
-    "Diagnostics",
-    "Servicing",
-    "Brakes & Suspension",
-    "Battery & Electrical",
-    "Vehicle Inspections",
-    "Pre-Purchase Checks",
-  ];
+  {
+    title: "Diagnostics",
+    description:
+      "Advanced fault finding and vehicle diagnostics using professional diagnostic equipment. We identify the cause of warning lights, electrical faults, and running issues.",
+  },
 
+  {
+    title: "Brakes",
+    description:
+      "Professional brake inspections and repairs including brake pads, discs, calipers, and braking system diagnostics. We ensure your braking system performs safely and reliably using quality components fitted to manufacturer standards.",
+  },
+
+  {
+    title: "Servicing",
+    description:
+      "Professional vehicle servicing designed to maintain reliability, performance, and safety. Includes oil and filter replacement, fluid checks, inspections, and a full digital vehicle health check.",
+  },
+
+  {
+    title: "Battery & Electrical",
+    description:
+      "Battery replacement, charging system testing, and electrical fault diagnosis for modern vehicles, including non-start issues, lighting faults, and charging problems.",
+  },
+
+  {
+    title: "Suspension",
+    description:
+      "Inspection and replacement of suspension components including arms, bushes, links, springs, and shock absorbers to restore comfort, handling, and vehicle stability.",
+  },
+
+  {
+    title: "Vehicle Health Checks",
+    description:
+      "Comprehensive vehicle inspections including tyres, brakes, suspension, fluids, battery condition, and visible safety-related components with digital inspection reporting.",
+  },
+];
   const galleryImages = [
     "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
@@ -27,19 +55,19 @@ export default function ModernMobileMechanicWebsite() {
           <section className="max-w-6xl mx-auto px-6 py-20">
             <h2 className="text-5xl font-bold text-center mb-14">Services</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {services.map((service) => (
-                <div
-                  key={service}
-                  className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-400 hover:scale-[1.02] transition"
-                >
-                  <h3 className="text-2xl font-semibold mb-4 text-cyan-400">
-                    {service}
-                  </h3>
-                  <p className="text-slate-300 leading-relaxed">
-                    Professional mobile mechanic support with modern diagnostics and transparent communication.
-                  </p>
-                </div>
-              ))}
+            {services.map((service) => (
+  <div
+    key={service.title}
+    className="bg-slate-900 border border-slate-800 rounded-3xl p-8 hover:border-cyan-400 hover:scale-[1.02] transition"
+  >
+    <h3 className="text-2xl font-semibold mb-4 text-cyan-400">
+      {service.title}
+    </h3>
+    <p className="text-slate-300 leading-relaxed">
+      {service.description}
+    </p>
+  </div>
+))}
             </div>
           </section>
         );
@@ -113,7 +141,8 @@ export default function ModernMobileMechanicWebsite() {
                 </div>
 
                 <p className="text-slate-300 leading-relaxed mb-6">
-                  Customers can securely request appointments, choose services, and receive confirmations directly through Jobber.
+                  Click the link and gvie us information, like your registration and the service you need from us to request a 
+                  quote! We'll then be intouch to schedule our visit!
                 </p>
 
                 <a
