@@ -117,7 +117,7 @@ export default function ModernMobileMechanicWebsite() {
                 </p>
 
                 <a
-                  href="https://clienthub.getjobber.com/client_hubs/YOUR-JOBBER-LINK"
+                  href="https://clienthub.getjobber.com/client_hubs/39d4cbeb-aa02-4adc-b038-d02a2c6ef5d7/login/new?source=share_login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-cyan-500 hover:bg-cyan-600 transition px-8 py-4 rounded-2xl font-semibold shadow-lg"
@@ -182,15 +182,15 @@ export default function ModernMobileMechanicWebsite() {
             </p>
 
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <a href="tel:+447700900000" className="bg-cyan-500 hover:bg-cyan-600 transition px-8 py-4 rounded-2xl font-semibold">
+              <a href="tel:+447776144358" className="bg-cyan-500 hover:bg-cyan-600 transition px-8 py-4 rounded-2xl font-semibold">
                 Call Now
               </a>
 
-              <a href="mailto:bookings@modernmobilemechanic.co.uk" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
+              <a href="mailto:Kane@gear1garage,com" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
                 Send Email
               </a>
 
-              <a href="https://wa.me/447700900000" target="_blank" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
+              <a href="https://wa.me/447776144358" target="_blank" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
                 WhatsApp
               </a>
             </div>
