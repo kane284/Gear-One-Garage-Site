@@ -76,21 +76,27 @@ export default function ModernMobileMechanicWebsite() {
         return (
           <section className="max-w-6xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-5xl font-bold mb-8">About Us</h2>
-              <p className="text-slate-300 text-lg leading-relaxed mb-6">
-                Modern Mobile Mechanic combines dealership-level diagnostics with mobile convenience.
-              </p>
-              <p className="text-slate-300 text-lg leading-relaxed mb-8">
-                We use digital inspection reports, modern booking systems, and AI-enhanced reporting to deliver a premium customer experience.
-              </p>
+              <h2 className="text-5xl font-bold mb-8">About Gear One Garage</h2>
+
+<p className="text-slate-300 text-lg leading-relaxed mb-6">
+  Gear One Garage is a modern mobile mechanic service built around convenience, clear communication, and professional vehicle care. We bring diagnostics, servicing, repairs, and inspections directly to your home or workplace.
+</p>
+
+<p className="text-slate-300 text-lg leading-relaxed mb-6">
+  Our aim is to make vehicle maintenance simpler and less stressful. From warning lights and battery issues to brakes, suspension, servicing, and health checks, we provide honest advice and reliable workmanship without the hassle of visiting a traditional garage.
+</p>
+
+<p className="text-slate-300 text-lg leading-relaxed mb-8">
+  With digital inspection reports, online booking through Jobber, and a customer-focused approach, Gear One Garage gives drivers a cleaner, easier, and more modern way to look after their vehicles.
+</p>
 
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  "Digital Reports",
-                  "Fast Booking",
-                  "Professional Diagnostics",
-                  "Mobile Convenience",
-                ].map((item) => (
+  "Mobile Vehicle Care",
+  "Honest Advice",
+  "Digital Reports",
+  "Reliable Workmanship",
+].map((item) => (
                   <div key={item} className="bg-slate-900 border border-slate-800 rounded-2xl p-4 text-center text-cyan-400 font-semibold">
                     {item}
                   </div>
@@ -141,8 +147,7 @@ export default function ModernMobileMechanicWebsite() {
                 </div>
 
                 <p className="text-slate-300 leading-relaxed mb-6">
-                  Click the link and gvie us information, like your registration and the service you need from us to request a 
-                  quote! We'll then be intouch to schedule our visit!
+                  Click the link and give us your vehicle details, registration, and the service you need to request a quote. We'll then be in touch to schedule our visit.
                 </p>
 
                 <a
@@ -153,32 +158,6 @@ export default function ModernMobileMechanicWebsite() {
                 >
                   Open Jobber Booking Portal
                 </a>
-              </div>
-
-              <div className="space-y-6">
-                <input placeholder="Full Name" className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-5 py-4" />
-                <input placeholder="Phone Number" className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-5 py-4" />
-                <input placeholder="Vehicle Registration" className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-5 py-4" />
-
-                <select className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-5 py-4">
-                  <option>Select Service</option>
-                  {services.map((service) => (
-                    <option key={service}>{service}</option>
-                  ))}
-                </select>
-
-                <textarea
-                  placeholder="Describe the issue or requested work"
-                  className="w-full min-h-[140px] bg-slate-950 border border-slate-700 rounded-2xl px-5 py-4"
-                />
-
-                <button className="w-full bg-cyan-500 hover:bg-cyan-600 transition rounded-2xl py-4 font-semibold shadow-lg">
-                  Submit Booking Request
-                </button>
-
-                <p className="text-center text-slate-400 text-sm pt-2">
-                  Or use the Jobber portal above for live scheduling and confirmations.
-                </p>
               </div>
             </div>
           </section>
@@ -215,7 +194,7 @@ export default function ModernMobileMechanicWebsite() {
                 Call Now
               </a>
 
-              <a href="mailto:Kane@gear1garage,com" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
+              <a href="mailto:Kane@gear1garage.com" className="border border-slate-700 hover:border-cyan-400 transition px-8 py-4 rounded-2xl">
                 Send Email
               </a>
 
@@ -235,16 +214,16 @@ export default function ModernMobileMechanicWebsite() {
               <div className="relative max-w-6xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block px-4 py-1 mb-6 rounded-full bg-slate-900 text-sm border border-slate-700 text-slate-200">
-                    AI-Enhanced Vehicle Care & Mobile Diagnostics
-                  </div>
+  Professional Mobile Mechanic Services
+</div>
 
-                  <h1 className="text-6xl font-bold leading-tight mb-6">
-                    Premium Mobile Mechanic <span className="text-cyan-400">Built For Modern Drivers</span>
-                  </h1>
+<h1 className="text-6xl font-bold leading-tight mb-6">
+  Vehicle Repairs & Diagnostics <span className="text-cyan-400">Delivered To Your Door</span>
+</h1>
 
-                  <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-xl">
-                    Professional mobile mechanic services with advanced diagnostics, digital inspection reports, and premium customer care inspired by the Gear One Garage brand.
-                  </p>
+<p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-xl">
+  Gear One Garage provides professional mobile diagnostics, servicing, repairs, and vehicle health checks at your home or workplace. Reliable workmanship, honest advice, and modern booking made simple.
+</p>
 
                   <div className="flex flex-wrap gap-4">
                     <button
@@ -372,7 +351,7 @@ export default function ModernMobileMechanicWebsite() {
 
       {renderPage()}
 
-      <footer className="border-t border-slate-800 py-8 text-center text-slate-400 text-sm">
+            <footer className="border-t border-slate-800 py-8 text-center text-slate-400 text-sm">
         © 2026 Gear One Garage. All rights reserved.
       </footer>
     </div>
